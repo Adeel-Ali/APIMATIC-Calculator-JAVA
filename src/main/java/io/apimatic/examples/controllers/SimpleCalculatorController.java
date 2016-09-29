@@ -71,14 +71,14 @@ public class SimpleCalculatorController extends BaseController {
 
         //process template parameters
         APIHelper.appendUrlWithTemplateParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 4902070076839123610L;
+            private static final long serialVersionUID = 4731659993496801056L;
             {
                     put( "operation", (null != input.getOperation()) ? input.getOperation().value() : null );
             }});
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5056611673397143325L;
+            private static final long serialVersionUID = 5017210975857038585L;
             {
                     put( "x", input.getX() );
                     put( "y", input.getY() );
@@ -88,7 +88,7 @@ public class SimpleCalculatorController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5635112251951448032L;
+            private static final long serialVersionUID = 5599448446716359692L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
             }
