@@ -131,7 +131,7 @@ void getCalculateAsync(
 ```java
 GetCalculateInput collect = new GetCalculateInput();
 
-OperationTypeEnum operation = OperationTypeEnum.fromString("SUM");
+OperationTypeEnum operation = OperationTypeEnum.fromString("MULTIPLY");
 collect.setOperation(operation);
 
 double x = 5;
