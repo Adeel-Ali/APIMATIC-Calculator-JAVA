@@ -1,4 +1,4 @@
-# Getting Started
+#Getting started
 
 ## How to Build
 
@@ -78,7 +78,7 @@ In Eclipse, for running the tests do the following:
 
 ## Initialization
 
-### Initialization
+### 
 
 API client can be initialized as following.
 
